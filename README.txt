@@ -1,1 +1,1 @@
-LADAKH MULTI-PAGE WEBSITE\n\n1. Extract this ZIP folder.\n2. Open index.html in Chrome.\n3. Use the top menu to open separate pages.\n\nFiles: index.html, about.html, places.html, bikes.html, nature.html, guide.html, plan.html, style.css, script.js.\nInternet is required to load the sample photos.\nThe form is a front-end demonstration and does not send data to a server.\n
+
