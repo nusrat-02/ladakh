@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan Your Trip | Ladakh</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div class="logo">LAD<span>AKH</span></div>
+    <nav><a href="index.html" class="">Home</a><a href="about.html" class="">About</a><a href="places.html" class="">Places</a><a href="bikes.html" class="">Bike Trails</a><a href="nature.html" class="">Nature</a><a href="guide.html" class="">Travel Guide</a><a href="plan.html" class="active">Plan a Trip</a></nav>
+</header>
+<main>
+    <div class="page-title">
+        <h1>Plan Your Trip</h1>
+        <p>Tell us a little about the trip you are dreaming of.</p>
+    </div>
+<form id="tripForm">
+    <label for="name">Your Name</label>
+    <input type="text" id="name" placeholder="Enter your name" required>
+    <label for="email">Email Address</label>
+    <input type="email" id="email" placeholder="Enter your email" required>
+    <label for="season">When would you like to visit?</label>
+    <select id="season" required>
+        <option value="">Choose a season</option>
+        <option>Summer</option><option>Autumn</option><option>Winter</option>
+    </select>
+    <label for="messageBox">Your Message</label>
+    <textarea id="messageBox" placeholder="Tell us about your trip"></textarea>
+    <button class="button" type="submit">Send My Details</button>
+    <p id="message"></p>
+</form>
+</main>
+<footer>
+    <div><div class="logo" style="color:white">LAD<span>AKH</span> – THE PREMIUM OF EARTH</div>
+    <p>Every road leads to a new adventure.</p></div>
+    <div><strong>For more queries:</strong><p>Info@ladakhtravel.com</p>
+    <p>Instagram | Facebook | YouTube</p></div>
+</footer>
+<script src="script.js"></script>
+
+</body>
+</html>
